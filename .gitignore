@@ -1,5 +1,7 @@
 # Ignore input files
 input/*
+!input/.gitkeep
 
 # Ignore QREL file
 qrel/*
+!qrel/.gitkeep

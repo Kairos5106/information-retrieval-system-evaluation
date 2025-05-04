@@ -1,29 +1,37 @@
-## Introduction
+# Introduction
+This notebook contains programs to calculate and compare the MAP (Mean Average Precision) and MRR (Mean Reciprocal Rank) values between different input files. It also includes visualizations for easier comparison.
 
-This notebook contains programs to calculate and compare the MAP and MRR values between different input files. There are visualizations and 
+# Instructions
+## 📁 Folder Structure
+Before getting started, please make sure to organize your files as follows:
 
-## Instructions
-
-### Before getting started, please be sure to have these files:
-1. A set of input files
-2. A QREL file/relevance judgment
-
-> Make sure that (1) and (2) are placed according to the folder structure below:
-
+```
 data-analysis/
 │
-├── input/              
-│   └── input.sample-A      # put your input files here according the naming convention
-│ 
-├── QREL-file               # Put your QREL file here.
-├── README.md               # Project overview
+├── input/                  # Put your input files here according to the naming convention
+│   └── input.sample-A
+│
+├── QREL-file/              # Put your QREL (relevance judgment) file(s) here
+│   └── qrel.sample.txt
+│
 ├── README.md               # Project overview
 └── .gitignore              # Files/folders to ignore in Git
+```
 
-### Make sure to have these dependencies too
-1. Python
-2. Some Python libraries:
-  - pandas
-  - seaborn
-  - matplotlib
-  - numpy
+> ✅ Ensure that both input files and QREL files are placed in the correct directories as shown above.
+
+# 📦 Dependencies
+Make sure you have the following installed:
+
+1. Python (version 3.x recommended)
+
+2. Required Python libraries:
+- pandas
+- seaborn
+- matplotlib
+- numpy
+
+You can install them using pip:
+```
+pip install pandas seaborn matplotlib numpy
+```
