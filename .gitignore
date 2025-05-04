@@ -1,0 +1,5 @@
+# Ignore input files
+input/*
+
+# Ignore QREL file
+qrel/*
