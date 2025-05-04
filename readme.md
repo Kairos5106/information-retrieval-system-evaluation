@@ -9,6 +9,7 @@ This notebook contains programs to calculate and compare the MAP and MRR values 
 2. A QREL file/relevance judgment
 
 > Make sure that (1) and (2) are placed according to the folder structure below:
+
 data-analysis/
 │
 ├── input/              
