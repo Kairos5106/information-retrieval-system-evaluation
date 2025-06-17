@@ -14,6 +14,8 @@ data-analysis/
 │   └── input.sample-A
 │   └── ...
 │
+├── output/                 # Any output files will be inserted here
+│
 ├── QREL-file/              # Put your QREL (relevance judgment) file(s) here
 │   └── qrel.sample.txt
 │
@@ -38,5 +40,5 @@ Make sure you have the following installed:
 
 You can install them using pip:
 ```
-pip install pandas seaborn matplotlib numpy
+pip install pandas seaborn matplotlib numpy scipy
 ```
